@@ -71,6 +71,6 @@ Steps for clustering using the PCA-transformed data:
 
 ## Modules Used
 
-Python: Core programming language.
-scikit-learn: For k-means clustering and PCA.
-hvPlot: For interactive visualizations.
+* Python: Core programming language.
+* scikit-learn: For k-means clustering and PCA.
+* hvPlot: For interactive visualizations.
