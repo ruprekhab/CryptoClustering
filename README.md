@@ -23,6 +23,7 @@ The elbow method was used to determine the optimal number of clusters (k):
 2) Computed inertia values for each k using a for loop.
 3) Plotted the elbow curve as a line chart to visualize and identify the optimal k.
 4) Optimal k: Found to be 4.
+![Alt text](images/elbow_curve_scaled.png)
 
 ## Clustering Cryptocurrencies (Scaled DataFrame)
 Steps for clustering using the scaled DataFrame:
