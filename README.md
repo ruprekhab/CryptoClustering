@@ -37,12 +37,14 @@ Steps for clustering using the scaled DataFrame:
     * Y-axis: price_change_percentage_7d
     * Color: Cluster labels
     * Hover: coin_id for cryptocurrency identification
+    ![Alt text](images/cluster_scaled.png)
 ## Optimizing Clusters with PCA
 To simplify clustering, Principal Component Analysis (PCA) was used to reduce dimensionality:
 
 1) Reduced features to 3 principal components.
 2) Achieved approximately 90% explained variance.
 3) Created a new DataFrame with PCA-transformed data and retained coin_id as the index.
+![Alt text](images/pca_df.png)
 
 ## Finding the Best Value for k (PCA DataFrame)
 
@@ -51,6 +53,7 @@ The elbow method was applied to the PCA-transformed DataFrame:
 1) Generated inertia values for k values from 1 to 11.
 2) Plotted an elbow curve to identify the optimal k.
 3) Optimal k: Found to be 4.
+![Alt text](images/elbow_curve_pca.png)
 
 ## Clustering Cryptocurrencies (PCA DataFrame) 
 Steps for clustering using the PCA-transformed data:
@@ -64,6 +67,7 @@ Steps for clustering using the PCA-transformed data:
     * Y-axis: PC2
     * Color: Cluster labels
     * Hover: coin_id for cryptocurrency identification
+    ![Alt text](images/scatter_pca.png)
 
 ## Key Insights
 
